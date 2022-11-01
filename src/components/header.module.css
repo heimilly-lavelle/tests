@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: goldenrod;
+    padding: 1em;
+}
+
+.image {
+    height: 50px;
+    width: 60px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.item {
+    margin-right: 1em;
+}
+
+.item a {
+    color: #222;
+    text-decoration: none;
+}
+
+.item a:hover {
+    color:crimson;
+}
